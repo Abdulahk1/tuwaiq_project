@@ -4,6 +4,14 @@
 import os
 import sys
 
+# clear screen
+if os.name == "posix":
+    os.system("clear")
+elif os.name == "nt":
+    os.system("cls")
+else:
+    sys.stderr.write(f"Error: no clear screen command found to '{os.name}' system.\n")
+
 # print dynamic sections functions
 sections = 1;
 def sec_print(s):
