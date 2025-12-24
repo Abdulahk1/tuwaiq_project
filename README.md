@@ -1,4 +1,4 @@
-**In collaboration with** [limxdo](https://github.com/limxdo)
+# In collaboration with [limxdo](https://github.com/limxdo)
 
 ---
 
